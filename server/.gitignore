@@ -1,0 +1,15 @@
+# Server environment secrets
+.env
+.env.*
+!.env.example
+
+# SQLite data directory and databases
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Node modules and logs
+node_modules/
+*.log
+npm-debug.log*
